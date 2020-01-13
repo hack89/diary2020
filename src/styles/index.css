@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.user_flex span.user_name {
+    color: red;
+}
+
+.jumbo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.container_index {
+    min-height: 100vh;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_index {
+    width: 300px;
+    height: 300px;
+    background-image: url(../styles/dairy.png);
+    z-index: 99;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index_h1 {
+    color: black !important;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+@media (max-width: 770px) {
+    .user_flex {
+        display: flex;
+        align-items: center;
+    }
+    .user_flex img {
+        height: 150px;
+    }
+}
